@@ -8,74 +8,74 @@
     <link rel="stylesheet" href="style.css">
     <h1>Tip Calculator</h1>
 
-		<div id="slider">
-			<figure>
-				<img src="https://www.casio-europe.com/resource/images/panel-brands/ecr_system.jpg" height='250' width='500'></img>
-				<img src="https://www.walkeragency.com/wp-content/uploads/2018/02/Improving-Your-Restaurant%E2%80%99s-Customer-Service.jpg" height='250' width='500'></img>
-				<img src="https://jumbotron-production-f.squarecdn.com/assets/3512583b78213491b35a.jpg" height='250' width='500'></img>
-				<img src="https://www.glimpsecorp.com/wp-content/uploads/2019/01/Restaurant-Cash-Handling-Procedures.jpg" height='250' width='500'></img>
-				<img src="https://www.casio-europe.com/resource/images/panel-brands/ecr_system.jpg" height='250' width='500'></img>
-			</figure>
-		</div>
+	<div id="slider">
+		<figure>
+			<img src="https://www.casio-europe.com/resource/images/panel-brands/ecr_system.jpg" height='250' width='500'></img>
+			<img src="https://www.walkeragency.com/wp-content/uploads/2018/02/Improving-Your-Restaurant%E2%80%99s-Customer-Service.jpg" height='250' width='500'></img>
+			<img src="https://jumbotron-production-f.squarecdn.com/assets/3512583b78213491b35a.jpg" height='250' width='500'></img>
+			<img src="https://www.glimpsecorp.com/wp-content/uploads/2019/01/Restaurant-Cash-Handling-Procedures.jpg" height='250' width='500'></img>
+			<img src="https://www.casio-europe.com/resource/images/panel-brands/ecr_system.jpg" height='250' width='500'></img>
+		</figure>
+	</div>
 
 
-		<div id="steps">
-			<font font size="6"><u>Steps:</u></font>
-				<ul>
-					<li>Type in the bill amount before tipping.</li>
-					<li>Type in the tip percentage you want to tip.</li>
-					<li>Click the "Calcluate Bill" button to calculate the total bill after tipping.</li>
-					<li>If you make a mistake, click the "Remove Bill" button to remove the last bill you inputted.</li>
-					<li>If you want to see all your stored bills, click the "See List" button.</li>
-				</ul>
-		</div>
-		<hr>
-
-		<br>
-		<div id="buttons">
-			<form name="words">
-				<input type="button" id="serviceButton" value="How was my service?" onClick="randomService()">
-				</input><p>
-
-				<input type="text" id="billAmount" placeholder="Type the bill amount here!"/>
-				</input><p>
-
-				<input type="text" id="tipPercentage" placeholder="Type the tip percentage here!"/>
-				</input><p>
-
-				<input type="button" value="Calculate Bill" onClick="calculatingBills()">
-				</input>
-
-				<input type="button" value="Remove Last Bill" onClick="removingBills()">
-				</input>
-
-				<input type="button" value="See List" onClick="everything()">
-				</input></p><br>
-			</form>
-		</div>
-
-		<div id="print">
-			<hr>
-			<br>
-			<b><u>Your Total Bills:</u></b>
-			<br>
-
-			<span id="ok"></span>
-
-			<br><br><br>
-			<em>Try the Program Again!</em>
-			<br>
-			<button id="refreshButton" onclick ="window.location.reload(true);"> Refresh Page
-			</button><p>
-		</div>
-
-		<footer id="footer">
+	<div id="steps">
+		<font font size="6"><u>Steps:</u></font>
 			<ul>
-				<ul>
-					<br> &copy; 2019
-				</ul>
+				<li>Type in the bill amount before tipping.</li>
+				<li>Type in the tip percentage you want to tip.</li>
+				<li>Click the "Calcluate Bill" button to calculate the total bill after tipping.</li>
+				<li>If you make a mistake, click the "Remove Bill" button to remove the last bill you inputted.</li>
+				<li>If you want to see all your stored bills, click the "See List" button.</li>
 			</ul>
-		</footer>
+	</div>
+	<hr>
+
+	<br>
+	<div id="buttons">
+		<form name="words">
+			<input type="button" id="serviceButton" value="How was my service?" onClick="randomService()">
+			</input><p>
+
+			<input type="text" id="billAmount" placeholder="Type the bill amount here!"/>
+			</input><p>
+
+			<input type="text" id="tipPercentage" placeholder="Type the tip percentage here!"/>
+			</input><p>
+
+			<input type="button" value="Calculate Bill" onClick="calculatingBills()">
+			</input>
+
+			<input type="button" value="Remove Last Bill" onClick="removingBills()">
+			</input>
+
+			<input type="button" value="See List" onClick="everything()">
+			</input></p><br>
+		</form>
+	</div>
+
+	<div id="print">
+		<hr>
+		<br>
+		<b><u>Your Total Bills:</u></b>
+		<br>
+
+		<span id="ok"></span>
+
+		<br><br><br>
+		<em>Try the Program Again!</em>
+		<br>
+		<button id="refreshButton" onclick ="window.location.reload(true);"> Refresh Page
+		</button><p>
+	</div>
+
+	<footer id="footer">
+		<ul>
+			<ul>
+				<br> &copy; 2019
+			</ul>
+		</ul>
+	</footer>
 
   </body>
 
